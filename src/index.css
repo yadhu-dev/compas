@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.dark {
+  @apply bg-gray-900 text-white;
+}
+
+.dark input,
+.dark select {
+  @apply bg-gray-800 border-gray-700 text-white;
+}
+
